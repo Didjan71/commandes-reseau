@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<!-- Entête -->
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Commandes Réseaux sous Windows</title>
+	</head>
+	<!-- Corps -->
+	<body>
+		<h1>Commandes Réseaux sous Windows</h1>
+		<ul class="menu">
+			<li><a href="index.html">IPCONFIG</a></li>
+			<li><a href="ping.html">PING</a></li>
+			<li><a href="tracert.html">TRACERT</a></li>
+			<li><a href="route.html">ROUTE</a></li>
+			<li><a href="arp.html">ARP</a></li>
+			<li><a href="divers.html">DIVERS</a></li>
+		</ul>
+		<h2>PING</h2>
+		<table>
+			<caption>Teste la connectivité avec un hôte (nom DNS ou adresse IP).</caption>
+			<tr>
+				<th class="option">OPTION</th><th>UTILISATION</th><th class="exemple">EXEMPLE</th>
+			</tr><tr>
+				<td>-t</td><td>Effectue un test ping sur l'hôte spécifié jusqu'à son arrêt. Pour arrêter, appuyez sur Ctrl+C.</td><td>ping -t 10.0.0.1</td>
+			</tr><tr>
+				<td>-n count</td><td>Nombre de demandes d'écho à envoyer</td><td>ping -n 5 10.0.0.1</td>
+			</tr><tr>
+				<td>-l size</td><td>Taille du tampon d'envoi</td><td>ping -l 100 10.0.0.1</td>
+			</tr><tr>
+				<td>-i TTL</td><td>Durée de vie</td><td>ping -i 25 10.0.0.1</td>
+			</tr><tr>	
+				<td>-w timeout</td><td>Délai d'attente pour chaque réponse, en millisecondes</td><td>ping -w 2000 10.0.0.1</td>
+			</tr><tr>	
+				<td>-4</td><td>Force l'utilisation d'IPv4</td><td>ping -4 www.google.fr</td>
+			</tr><tr>	
+				<td>-6</td><td>Force l'utilisation d'IPv6</td><td>ping -6 www.google.fr</td>
+			</tr>
+		</table>
+	</body>
+</html>

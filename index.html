@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<!-- Entête -->
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Commandes Réseaux sous Windows</title>
+	</head>
+	<!-- Corps -->
+	<body>
+		<h1>Commandes Réseaux sous Windows</h1>
+		<ul class="menu">
+			<li><a href="index.html">IPCONFIG</a></li>
+			<li><a href="ping.html">PING</a></li>
+			<li><a href="tracert.html">TRACERT</a></li>
+			<li><a href="route.html">ROUTE</a></li>
+			<li><a href="arp.html">ARP</a></li>
+			<li><a href="divers.html">DIVERS</a></li>
+		</ul>
+		<h2>IPCONFIG</h2>
+		<table>
+			<caption>Affiche l'adresse IP, le masque de sous-réseau et la passerelle par défaut de chaque carte liée à TCP/IP.</caption>
+			<tr>
+				<th class="option">OPTION</th><th>UTILISATION</th><th class="exemple">EXEMPLE</th>
+			</tr><tr>
+				<td>/?</td><td>Affiche un message d'aide</td><td>ipconfig /?</td>
+			</tr><tr>
+				<td>/all</td><td>Affiche toutes les informations de configuration</td><td>ipconfig /all</td>
+			</tr><tr>
+				<td>/release</td><td>Libère l'adresse IPv4 pour la carte spécifiée</td><td>ipconfig /release</td>
+			</tr><tr>
+				<td>/release6</td><td>Libère l'adresse IPv6 pour la carte spécifiée</td><td>ipconfig /release6</td>
+			</tr><tr>
+				<td>/renew</td><td>Renouvelle l'adresse IPv4 pour la carte spécifiée</td><td>ipconfig /renew</td>
+			</tr><tr>
+				<td>/renew6</td><td>Renouvelle l'adresse IPv6 pour la carte spécifiée</td><td>ipconfig /renew6</td>
+			</tr><tr>
+				<td>/displaydns</td><td>Affiche le contenu du cache de résolution DNS</td><td>ipconfig /displaydns</td>
+			</tr><tr>
+				<td>/flushdns</td><td>Vide le cache de résolution DNS</td><td>ipconfig /flushdns</td>
+			</tr>
+		</table>	
+	</body>
+</html>

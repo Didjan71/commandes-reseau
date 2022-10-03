@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<!-- Entête -->
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Commandes Réseaux sous Windows</title>
+	</head>
+	<!-- Corps -->
+	<body>
+		<h1>Commandes Réseaux sous Windows</h1>
+		<ul class="menu">
+			<li><a href="index.html">IPCONFIG</a></li>
+			<li><a href="ping.html">PING</a></li>
+			<li><a href="tracert.html">TRACERT</a></li>
+			<li><a href="route.html">ROUTE</a></li>
+			<li><a href="arp.html">ARP</a></li>
+			<li><a href="divers.html">DIVERS</a></li>
+		</ul>
+		<h2>ROUTE</h2>
+		<table>
+			<caption>Gère les tables de routage réseau.</caption>
+			<tr>
+				<th class="option">OPTION</th><th>UTILISATION</th><th class="exemple">EXEMPLE</th>
+			</tr><tr>
+				<td>print</td><td>Affiche la table de routage de l'hôte</td><td>route print</td>
+			</tr><tr>
+				<td>add</td><td>Ajoute une route dans la table de routage</td><td>route add 10.0.0.0 MASK 255.0.0.0 10.0.0.255</td>
+			</tr><tr>	
+				<td>delete</td><td>Supprime une route dans la table de routage</td><td>route delete 10.0.0.0</td>
+			</tr><tr>	
+				<td>change</td><td>change la passerelle d'une route dans la table de routage</td><td>route change 10.0.0.0 MASK 255.0.0.0 10.255.255.255</td>
+			</tr>
+		</table>	
+	</body>
+</html>

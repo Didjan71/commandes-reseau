@@ -1,0 +1,94 @@
+body {
+	width: 780px;
+	margin: auto;
+	background-color: white;
+	background: url("logo1.png") no-repeat top left, url("logo2.png") no-repeat top right;
+	background-attachment: fixed;
+}
+
+h1 {
+	text-align: center;
+	border: 2px black solid;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px black;
+}
+
+h2 {
+	text-align: left;
+	border: 2px black solid;
+	background-color: black;
+	color: white;
+	margin: 0px;
+	padding: 10px;
+}
+
+p {
+	border: 1px black solid;
+	margin: 0px;
+	padding: 10px;
+}
+table {
+	border: 1px black solid;
+	border-collapse: collapse;
+	width: 780px;
+	margin-bottom: 10px;
+}
+
+caption {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: left;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+tr:hover {
+	background-color: yellow;
+}
+
+.option {
+	width: 100px;
+}
+ .exemple {
+	width: 200px;
+}
+
+.menu {
+	display: flex;
+	padding: 0;
+	background-color: black;
+	justify-content: center;
+}
+
+.menu a {
+	display: block;
+	min-width: 100px;
+	
+	margin: 10px;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 10px 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: #1ABC9C;    /* Couleur d'arrière-plan */
+    color: #fff;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;
+}
+
+.menu a:hover {
+  background-color: yellow;
+  color: black;
+  border-color: black;
+}
+
+ul {
+	
+	background-color: black;
+	display: inline;
+}
+
+.menu li {
+	list-style-type: none;
+}

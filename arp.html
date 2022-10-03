@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<!-- Entête -->
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Commandes Réseaux sous Windows</title>
+	</head>
+	<!-- Corps -->
+	<body>
+		<h1>Commandes Réseaux sous Windows</h1>
+		<ul class="menu">
+			<li><a href="index.html">IPCONFIG</a></li>
+			<li><a href="ping.html">PING</a></li>
+			<li><a href="tracert.html">TRACERT</a></li>
+			<li><a href="route.html">ROUTE</a></li>
+			<li><a href="arp.html">ARP</a></li>
+			<li><a href="divers.html">DIVERS</a></li>
+		</ul>
+		<h2>ARP</h2>
+		<table>
+			<caption>Affiche et modifie les tables de traduction d'adresses IP en adresses physiques utilisées par le protocole de résolution d'adresses ARP.</caption>
+			<tr>
+				<th class="option">OPTION</th><th>UTILISATION</th><th class="exemple">EXEMPLE</th>
+			</tr><tr>
+				<td>-a</td><td>Affiche les entrées ARP en cours</td><td>arp -a</td>
+			</tr><tr>
+				<td>-d</td><td>Supprime l'hôte spécifié par adresse IP. Le caractère générique * permet de supprimer tous les hôtes</td><td>arp -d 10.0.0.1</td>
+			</tr><tr>	
+				<td>-s</td><td>Ajoute l'hôte et associe l'adresse IP avec l'adresse MAC. L'entrée est permanente</td><td>arp -s 10.0.0.1 <br />00-aa-00-62-c6-09</td>
+			</tr>
+		</table>	
+	</body>
+</html>
